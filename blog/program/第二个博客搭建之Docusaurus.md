@@ -9,7 +9,7 @@ description: 使用 docusaurus 搭建个人博客，并对其主题进行魔改
 image: /img/project/blog.png
 ---
 
-博客地址: [愧怍的小站](https://kuizuo.cn/)
+博客地址: [路漫漫的小站](https://lummstudio.com/)
 
 时隔近半年没好好整理文章，博客也写的不像个人样。:joy:
 
@@ -21,22 +21,22 @@ image: /img/project/blog.png
 
 ## 安装
 
-如果你想搭建一个类似的博客，可以 [fork 本项目](https://github.com/kuizuo/blog/fork)，修改个人信息，并将文章迁移过来。这里推荐使用 [Vercel 部署个人博客](https://kuizuo.cn/vercel-deploy-blog)，以下是本地安装示例。
+如果你想搭建一个类似的博客，可以 [fork 本项目](https://github.com/lumm369/blog/fork)，修改个人信息，并将文章迁移过来。这里推荐使用 [Vercel 部署个人博客](https://lummstudio.com/vercel-deploy-blog)，以下是本地安装示例。
 
 ```bash
-git clone https://github.com/kuizuo/blog
+git clone https://github.com/lumm369/blog
 cd blog
 yarn
 yarn start
 ```
 
-关于主题魔改可以看 [Docusaurus 主题魔改](https://kuizuo.cn/docs/docusaurus-guides)
+关于主题魔改可以看 [Docusaurus 主题魔改](https://lummstudio.com/docs/docusaurus-guides)
 
 ## 一些页面
 
 ### [博客页](/blog/)
 
-![image-20230221120937768](https://img.kuizuo.cn/image-20230221120937768.png)
+![image-20230221120937768](https://img.lummstudio.com/image-20230221120937768.png)
 
 - 支持 3 种博文信息展示
 - 博客个人信息卡片
@@ -44,29 +44,29 @@ yarn start
 
 ### [归档页](/blog/archive)
 
-![image-20220804052418993](https://img.kuizuo.cn/image-20220804052418993.png)
+![image-20220804052418993](https://img.lummstudio.com/image-20220804052418993.png)
 
 ### [资源导航](/resources)
 
-![image-20220804052016538](https://img.kuizuo.cn/image-20220804052016538.png)
+![image-20220804052016538](https://img.lummstudio.com/image-20220804052016538.png)
 
 - 在此分享所收藏的一些好用、实用网站。
 
 ### 评论
 
-![image-20220804052746803](https://img.kuizuo.cn/image-20220804052746803.png)
+![image-20220804052746803](https://img.lummstudio.com/image-20220804052746803.png)
 
 - 接入 [giscus](https://giscus.app) 作为评论系统，支持 GitHub 登录。
 
 ### [项目](/project)
 
-![image-20220804052117492](https://img.kuizuo.cn/image-20220804052117492.png)
+![image-20220804052117492](https://img.lummstudio.com/image-20220804052117492.png)
 
 - 存放你的项目，或是当做一个作品集用于展示。
 
 ## 部署
 
-按传统的方式，你编写好一篇文章后，需要重新打包成静态文件（.html），然后将静态文件上传到服务器（需要自己准备）上，然后通过 nginx 配置域名访问。如今有了自动化部署，你只需要将代码 push 到 Github 上，然后通过 CI/CD 自动化部署到服务器上。可以参考 [ci.yml](https://github.com/kuizuo/blog/blob/main/.github/workflows/ci.yml) 配置文件。
+按传统的方式，你编写好一篇文章后，需要重新打包成静态文件（.html），然后将静态文件上传到服务器（需要自己准备）上，然后通过 nginx 配置域名访问。如今有了自动化部署，你只需要将代码 push 到 Github 上，然后通过 CI/CD 自动化部署到服务器上。可以参考 [ci.yml](https://github.com/lumm369/blog/blob/main/.github/workflows/ci.yml) 配置文件。
 
 这里推荐使用 [Vercel 部署个人博客](/blog/vercel-deploy-blog)，部署十分简单，你甚至不需要服务器，只需要有个 Github 账号，将你的博客项目添加为一个仓库中即可（也许需要科学上网）。
 

@@ -285,7 +285,7 @@ const button = css`
 
 官方在线例子（下图） [Tailwind Play (tailwindcss.com)](https://play.tailwindcss.com/)
 
-![](https://img.kuizuo.cn/20220114033240.png)
+![](https://img.lummstudio.com/20220114033240.png)
 
 有以下几种优点：
 

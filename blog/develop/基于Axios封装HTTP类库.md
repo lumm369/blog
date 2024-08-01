@@ -12,7 +12,7 @@ description: 基于 Axios 封装 HTTP 类库，并发布到 npm 仓库中
 
 一个基于 Axios 封装 HTTP 类库
 
-源代码 [kz-http](https://github.com/kuizuo/kz-http)
+源代码 [kz-http](https://github.com/lumm369/kz-http)
 
 ## 使用方法
 
@@ -173,7 +173,7 @@ http.instance.interceptors.request.use(
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kuizuo/kz-http.git"
+    "url": "git+https://github.com/lumm369/kz-http.git"
   },
   "keywords": ["node", "axios", "http"]
 }
@@ -197,7 +197,7 @@ http.instance.interceptors.request.use(
 
 - 如果包有重名，那么就无法发布，就必须要要改名
 
-- 邮箱必须要验证（会接受一条下图邮箱），不然就会发布失败 ![image-20210826212258752](https://img.kuizuo.cn/image-20210826212258752.png)
+- 邮箱必须要验证（会接受一条下图邮箱），不然就会发布失败 ![image-20210826212258752](https://img.lummstudio.com/image-20210826212258752.png)
 
 - **请勿随意删包，否则同名的包将需要 24 小时后才能发布（亲测）**
 

@@ -63,11 +63,11 @@ export default function App(props) {
         onClick={() => {
           setUser((obj) => ({
             ...obj,
-            name: '愧怍',
+            name: '路漫漫',
           }))
         }}
       >
-        set name as 愧怍
+        set name as 路漫漫
       </button>
     </div>
   )
@@ -146,7 +146,7 @@ export default function App() {
 
   React.useEffect(() => {
     async function fetchData() {
-      const data = await (await fetch('https://api.kuizuo.cn/api/one')).text()
+      const data = await (await fetch('https://api.lummstudio.com/api/one')).text()
       console.log(data)
       setData(data)
     }

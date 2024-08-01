@@ -9,11 +9,11 @@ keywords: [java, springboot, develop]
 
 <!-- truncate -->
 
-演示代码地址：[kuizuo/spring-boot-demo (github.com)](https://github.com/kuizuo/spring-boot-demo)
+演示代码地址：[kuizuo/spring-boot-demo (github.com)](https://github.com/lumm369/spring-boot-demo)
 
 ## 目录结构展示图
 
-![](https://img.kuizuo.cn/20220108011921.png)
+![](https://img.lummstudio.com/20220108011921.png)
 
 ### controller
 
@@ -40,7 +40,7 @@ public class UserController {
 
 这里数据库连接方式以 JPA（一个 ORM 框架）为例，可以安装一个 IDEA 插件 JPA Buddy 新建文件时可以直接创建 Entity(实体)或 Repository(仓库)
 
-![image-20220506115207717](https://img.kuizuo.cn/image-20220506115207717.png)
+![image-20220506115207717](https://img.lummstudio.com/image-20220506115207717.png)
 
 #### entity 类
 
