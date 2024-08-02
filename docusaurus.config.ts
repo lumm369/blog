@@ -161,7 +161,7 @@ const config: Config = {
     giscus: {
       repo: 'lumm369/blog',
       repoId: 'R_kgDOMd2IBw',
-      category: 'General',
+      category: 'Announcements',
       categoryId: 'DIC_kwDOMd2IB84ChWkq',
       theme: 'light',
       darkTheme: 'dark_dimmed',

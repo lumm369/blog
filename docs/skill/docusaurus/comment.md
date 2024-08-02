@@ -32,7 +32,7 @@ Waline：需要搭建后端服务与数据库服务，提供评论与浏览量�
   src="https://giscus.app/client.js"
   data-repo="lumm369/blog"
   data-repo-id="R_kgDOMd2IBw"
-  data-category="General"
+  data-category="Announcements"
   data-category-id="DIC_kwDOMd2IB84ChWkq"
   data-mapping="title"
   data-strict="0"
@@ -52,7 +52,7 @@ Waline：需要搭建后端服务与数据库服务，提供评论与浏览量�
 giscus: {
   repo: 'lumm369/blog',
   repoId: 'R_kgDOMd2IBw',
-  category: 'General',
+  category: 'Announcements',
   categoryId: 'DIC_kwDOMd2IB84ChWkq',
   theme: 'light',
   darkTheme: 'dark',
