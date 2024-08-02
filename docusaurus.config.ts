@@ -160,7 +160,7 @@ const config: Config = {
     },
     giscus: {
       repo: 'lumm369/blog',
-      repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
+      repoId: 'R_kgDOMd2IBw',
       category: 'General',
       categoryId: 'DIC_kwDOMd2IB84ChWkq',
       theme: 'light',
@@ -275,13 +275,13 @@ const config: Config = {
                 innerHTML: `
     (${function () {
       console.log(
-        `%c Kz Blog %c https://github.com/lumm369/blog`,
+        `%c Lumm Blog %c https://github.com/lumm369/blog`,
         'color: #fff; margin: 1em 0; padding: 5px 0; background: #12affa;',
         'margin: 1em 0; padding: 5px 0; background: #efefef;',
       )
 
       const motto = `
-This Webisite Powered By Kz Blog.
+This Webisite Powered By Lumm Blog.
 Written by Docusaurus, Coding with Love.
 --------
 Love what you do and do what you love.
