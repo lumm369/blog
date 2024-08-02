@@ -4,15 +4,15 @@ import { themes } from 'prism-react-renderer'
 import social from './data/social'
 import type { GiscusConfig } from './src/components/Comment'
 
-const beian = '闽ICP备2020017848号-2'
-const beian1 = '闽公网安备35021102000847号'
+const beian = '京ICP备2023011202号-1'
+// const beian1 = '闽公网安备35021102000847号'
 
 const config: Config = {
   title: '路漫漫',
   url: 'https://lummstudio.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'kuizuo',
+  organizationName: 'lumm',
   projectName: 'blog',
   customFields: {
     bio: '道阻且长，行则将至',
@@ -89,8 +89,7 @@ const config: Config = {
             { label: '博客', to: 'blog' },
             { label: '归档', to: 'blog/archive' },
             { label: '技术笔记', to: 'docs/skill' },
-            { label: '实战项目', to: 'project' },
-            { label: '前端示例', to: 'https://example.lummstudio.com' },
+            { label: '实战项目', to: 'project' }
           ],
         },
         {
@@ -99,18 +98,8 @@ const config: Config = {
             { label: '关于我', to: '/about' },
             { label: 'GitHub', href: social.github.href },
             // { label: 'Twitter', href: social.x.href },
-            { label: '掘金', href: social.juejin.href },
-            { label: 'Discord', href: social.discord.href },
-          ],
-        },
-        {
-          title: '网站',
-          items: [
-            { label: 'js反混淆', to: 'https://js-deobfuscator.lummstudio.com' },
-            { label: 'cyberChef', to: 'https://gchq.github.io/CyberChef' },
-            { label: 'api服务', to: 'https://api.lummstudio.com' },
-            { label: '便民服务', to: 'https://service.lummstudio.com' },
-            { label: '站点监控', to: 'https://uptime.lummstudio.com' },
+            // { label: '掘金', href: social.juejin.href },
+            // { label: 'Discord', href: social.discord.href },
           ],
         },
         {
@@ -128,18 +117,19 @@ const config: Config = {
           ],
         },
       ],
+      // <p style="display: inline-flex; align-items: center;"><img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${
+      //   beian1.match(/\d+/)?.[0]
+      // }" >${beian1}</a></p>
       copyright: `
         <p style="margin-bottom: 0;"><a href="http://beian.miit.gov.cn/">${beian}</a></p>
-        <p style="display: inline-flex; align-items: center;"><img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${
-          beian1.match(/\d+/)?.[0]
-        }" >${beian1}</a></p>
-        <p>Copyright © 2020 - ${new Date().getFullYear()} kuizuo. | Built with Docusaurus.</p>
+        <p>Copyright © 2023 - ${new Date().getFullYear()} lumm. | Built with Docusaurus.</p>
         `,
     },
     algolia: {
-      appId: 'GV6YN1ODMO',
-      apiKey: '50303937b0e4630bec4a20a14e3b7872',
-      indexName: 'kuizuo',
+      appId: '1NL5WSDYRP',
+      apiKey: 'dec3ee67f37cd7de6cf839f8d96d0e48',
+      indexName: 'lumm',
+      searchPagePath: false
     },
     prism: {
       theme: themes.oneLight,
@@ -169,10 +159,10 @@ const config: Config = {
       ],
     },
     giscus: {
-      repo: 'kuizuo/blog',
+      repo: 'lumm369/blog',
       repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
       category: 'General',
-      categoryId: 'DIC_kwDOF7NJDM4CPK95',
+      categoryId: 'DIC_kwDOMd2IB84ChWkq',
       theme: 'light',
       darkTheme: 'dark_dimmed',
     } satisfies Partial<GiscusConfig>,

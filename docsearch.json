@@ -1,5 +1,5 @@
 {
-  "index_name": "kuizuo",
+  "index_name": "lumm",
   "start_urls": ["https://lummstudio.com/"],
   "sitemap_urls": ["https://lummstudio.com/sitemap.xml"],
   "selectors": {

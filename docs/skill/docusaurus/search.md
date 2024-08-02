@@ -2,7 +2,7 @@
 id: docusaurus-search
 slug: /docusaurus-search
 title: 搜索
-authors: kuizuo
+authors: lumm
 ---
 
 > [搜索 | Docusaurus](https://docusaurus.io/zh-CN/docs/search)
@@ -27,7 +27,7 @@ authors: kuizuo
 algolia: {
   appId: 'GV6YN1ODMO',
   apiKey: '50303937b0e4630bec4a20a14e3b7872',
-  indexName: 'kuizuo',
+  indexName: 'lumm',
 }
 ```
 
@@ -54,7 +54,7 @@ themeConfig: {
     algolia: {
       apiKey: "xxxxxxxxxxx",
       appId: "xxxxxxxxxxx",
-      indexName: "kuizuo",
+      indexName: "lumm",
     },
 }
 ```

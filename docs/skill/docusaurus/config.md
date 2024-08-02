@@ -2,7 +2,7 @@
 id: docusaurus-config
 slug: /docusaurus-config
 title: 配置文件
-authors: kuizuo
+authors: lumm
 ---
 
 ## docusaurus.config.ts
@@ -17,14 +17,14 @@ const config: Config = {
   url: 'https://lummstudio.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'kuizuo',
+  organizationName: 'lumm',
   projectName: 'blog',
   themeConfig: {
     image: 'img/logo.png',
     metadata: [
       {
         name: 'keywords',
-        content: '路漫漫, kuizuo, blog, javascript, typescript, node, react, vue, web, 前端, 后端',
+        content: '路漫漫, lumm, blog, javascript, typescript, node, react, vue, web, 前端, 后端',
       },
     ],
     // ...
@@ -39,7 +39,7 @@ export default config
 
 ## sidebars.js
 
-用于配置文档的侧边栏，例如本博客中的[技术笔记](/docs/skill/)，[工具推荐](/docs/tools/)。侧边栏对应的每一项都是一个 markdown 文件，同时这些文件都存放在 docs 目录下，方便管理。
+用于配置文档的侧边栏，例如本博客中的[技术笔记](/docs/skill/)。侧边栏对应的每一项都是一个 markdown 文件，同时这些文件都存放在 docs 目录下，方便管理。
 
 [侧边栏 | Docusaurus](https://docusaurus.io/zh-CN/docs/sidebar)
 
@@ -47,7 +47,7 @@ export default config
 
 ### 基本信息
 
-站点名和作者名只需要搜索 **路漫漫** 或 **kuizuo** 便能找到关键位置，将其更改为你的便可。
+站点名和作者名只需要搜索 **路漫漫** 或 **lumm** 便能找到关键位置，将其更改为你的便可。
 
 ### 关于我 页面
 
@@ -59,9 +59,9 @@ export default config
 
 而 github 的状态信息使用[GitHub Profile Summary Cards](https://github-profile-summary-cards.vercel.app/demo.html) 或 [github-stats](https://github.com/jstrieb/github-stats) ，这里我选用 github-stats 因为带有动画，但需要图片需要自行构建。
 
-![](https://raw.githubusercontent.com/kuizuo/github-stats/master/generated/overview.svg#gh-light-mode-only)
+![](https://raw.githubusercontent.com/lumm369/github-stats/master/generated/overview.svg#gh-light-mode-only)
 
-![](https://raw.githubusercontent.com/kuizuo/github-stats/master/generated/languages.svg#gh-light-mode-only)
+![](https://raw.githubusercontent.com/lumm369/github-stats/master/generated/languages.svg#gh-light-mode-only)
 
 ### 友链、导航、项目 页面
 

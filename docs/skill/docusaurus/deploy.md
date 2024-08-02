@@ -2,7 +2,7 @@
 id: docusaurus-deploy
 slug: /docusaurus-deploy
 title: 部署
-authors: kuizuo
+authors: lumm
 ---
 
 我之前使用 [Vercel](https://vercel.com) 一把梭，无需任何配置。这样我就只需要专注输出内容即可。这是我当时使用 Vercel 部署的文章 [Vercel 部署个人博客](/blog/vercel-deploy-blog)
@@ -27,7 +27,7 @@ authors: kuizuo
 
 由于 Vercel 能够自动拉取仓库代码，并自行构建部署，因此通常什么配置都不需要。
 
-由于代码提交到代码仓库(github)，则需要借用 CI 服务来帮助我们完成这些任务，这里我使用了 [Github Action](https://github.com/marketplace) 来帮助我构建，构建记录可以在 [Actions · kuizuo/blog](https://github.com/lumm369/blog/actions) 中查看。以下是我的配置文件
+由于代码提交到代码仓库(github)，则需要借用 CI 服务来帮助我们完成这些任务，这里我使用了 [Github Action](https://github.com/marketplace) 来帮助我构建，构建记录可以在 [Actions · lumm369/blog](https://github.com/lumm369/blog/actions) 中查看。以下是我的配置文件
 
 ```yaml title='.github/workflows/ci.yml' icon='logos:github-actions'
 name: CI
@@ -82,6 +82,6 @@ jobs:
 
 ## 没有域名和服务器该怎么部署？
 
-当然了上述只是我的配置方案，有许多伙伴可能没有自己的域名或者自己的服务器，就想着白嫖，那么这里目前我只能推荐 [Netlify](https://www.netlify.com/)，然后通过 netlify 的二级域名如 kuizuo-blog.netlify.app 来进行访问。
+当然了上述只是我的配置方案，有许多伙伴可能没有自己的域名或者自己的服务器，就想着白嫖，那么这里目前我只能推荐 [Netlify](https://www.netlify.com/)，然后通过 netlify 的二级域名如 lumm-blog.netlify.app 来进行访问。
 
 我个人还是非常建议去弄一个属于自己的域名，通过 Vercel 的自定义域名就可以访问。并且由于自己的域名解析的不是大陆的服务器（Vercel 的服务器就不是国内大陆的），因此无需备案这一更繁琐的步骤。

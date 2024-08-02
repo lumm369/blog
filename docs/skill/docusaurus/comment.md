@@ -2,7 +2,7 @@
 id: docusaurus-comment
 slug: /docusaurus-comment
 title: 评论服务
-authors: kuizuo
+authors: lumm
 ---
 
 这里推荐两种评论服务
@@ -30,10 +30,10 @@ Waline：需要搭建后端服务与数据库服务，提供评论与浏览量�
 ```html
 <script
   src="https://giscus.app/client.js"
-  data-repo="kuizuo/blog"
-  data-repo-id="MDEwOlJlcG9zaXRvcnkzOTc2Mxxxxx"
+  data-repo="lumm369/blog"
+  data-repo-id="R_kgDOMd2IBw"
   data-category="General"
-  data-category-id="DIC_kwDOF7NJDM4CPK95"
+  data-category-id="DIC_kwDOMd2IB84ChWkq"
   data-mapping="title"
   data-strict="0"
   data-reactions-enabled="1"
@@ -50,10 +50,10 @@ Waline：需要搭建后端服务与数据库服务，提供评论与浏览量�
 
 ```javascript title='docusaurus.config.ts' icon='logos:docusaurus'
 giscus: {
-  repo: 'kuizuo/blog',
-  repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2Mxxxxx',
+  repo: 'lumm369/blog',
+  repoId: 'R_kgDOMd2IBw',
   category: 'General',
-  categoryId: 'DIC_kwDOF7NJDM4CPK95',
+  categoryId: 'DIC_kwDOMd2IB84ChWkq',
   theme: 'light',
   darkTheme: 'dark',
 }
