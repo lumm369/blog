@@ -2,7 +2,7 @@ export const projects: Project[] = [
   {
     title: '路漫漫的小站',
     description: '🦖 基于 Docusaurus 静态网站生成器实现个人博客',
-    preview: '/img/project/blog.png',
+    preview: '/img/home.png',
     website: 'https://lummstudio.com',
     source: 'https://github.com/lumm369/blog',
     tags: ['opensource', 'design', 'favorite'],
