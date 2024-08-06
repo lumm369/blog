@@ -1,22 +1,9 @@
 ---
 id: introduction
-slug: /skill
-title: 技术笔记
+slug: /seo
+title: SEO 笔记
 keywords:
-  - 前端
-  - Vue
-  - React
-  - JavaScript
-  - Typescript
-  - Nextjs
-  - Vercel
+  - SEO 笔记
 ---
 
-本页面为个人学习中所涉及相关技术栈的笔记汇总，包含但不限于
-
-- 前端
-- Vue
-- React
-- JavaScript & TypeScript
-- Nextjs
-- Vercel
+本页面记录我自己学习 SEO 优化过程中的笔记，SEO 包含很多细节，这里留下记录，方便回顾和查找。

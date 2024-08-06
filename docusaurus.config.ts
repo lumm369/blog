@@ -63,6 +63,11 @@ const config: Config = {
           to: 'project',
         },
         {
+          label: 'SEO',
+          position: 'right',
+          to: 'docs/seo',
+        },
+        {
           label: '更多',
           position: 'right',
           items: [
@@ -70,8 +75,7 @@ const config: Config = {
             { label: '笔记', to: 'docs/skill' },
             { label: '资源', to: 'resources' },
             { label: '友链', to: 'friends' },
-            { label: '工具推荐', to: 'docs/tools' },
-            { label: 'SEO', to: 'docs/seo' },
+            { label: '工具推荐', to: 'docs/tools' }
           ],
         },
         {
